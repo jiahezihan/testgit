@@ -1,0 +1,19 @@
+name: imctools
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pandas
+  - pip
+  - tifffile
+  - jupyter
+  - libtiff
+  - matplotlib
+  - notebook
+  - numpy
+  - python=3.6.6
+  - scikit-image
+  - scipy
+  - git
+  - pip:
+        - "git+https://github.com/BodenmillerGroup/imctools.git@master"
